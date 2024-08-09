@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+.screen-wrapper {
+  display: flex;
+  box-sizing: content-box;
+}
+
+.nav-section {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+  /* border: 2px solid black; */
+  align-content: center;
+  /* justify-items: end; */
+  align-items: center;
+  padding-left: 650px;
+  background-color: #fff;
+}
+.logo{
+  box-sizing: content-box;
+  color: black;
+  /* border: 2px solid white; */
+  height: 90px;
+  width: 350px;
+  position: absolute;
+  margin-left: -610px;
+  text-align: center;
+
+}
+
+.logo h1{
+  font-size: 50px;
+  margin-bottom: -15px;
+  margin-top: -8px;
+}
+
+.logo span{
+  font-size: 60px;
+  /* margin-top: -5px; */
+  
+}
+
+.nav-section button {
+  width: 200px;
+  height: 40px;
+  background-color: #4caf50; /* green background for the button */
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  /* font-weight: 500; */
+}
+.nav-section button:hover {
+  background-color: #3e8e41; /* darker green on hover */
+  height: 55px;
+  
+  transition-duration: 0.2s;
+}
+.LinkCustom{
+  text-decoration: none;
+  color: white;
+}
+
+.side-section {
+  box-sizing: border-box;
+  height: 525px;
+  width: 300px;
+  /* border: 2px solid black; */
+  background-color: #fff;
+  
+  /* align-content: center; */
+  /* padding-left: 40px; */
+  
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.side-section-btns{
+  margin: 40px;
+  align-items: center;
+  align-content: center;
+}
+.side-section button {
+  width: 200px;
+  height: 40px;
+  background-color: #4caf50; /* green background for the button */
+  color:white;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  
+}
+.side-section button:hover {
+  background-color: #3e8e41; /* darker green on hover */
+  
+  height: 50px;
+  transition-duration: 0.2s;
+
+}
+
+.screen-section {
+  box-sizing: content-box;
+  position: fixed;
+  height: 420px;
+  width: 950px;
+  /* border: 2px solid black; */
+  border-radius: 0px;
+  margin-top: 204px;
+  margin-left: 425px;
+  overflow-y: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  scroll-behavior: auto;
+  background-color: #fff;
+
+}
+
+.content {
+  /* border: 2px solid black; */
+  color: black;
+  display: flex;
+  font-size: 20px;
+  overflow-y: auto;
+  height: 80px;
+  width: 93%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  border-radius: 20px;
+  align-items: center;
+  overflow: hidden;
+  background-color: #4caf50; /* green background for the button */
+}
+
+.content:hover{
+  background-color: #3e8e41; /* darker green on hover */
+  color: #fff;
+  height: 90px;
+  width: 94%;
+  transition-duration: 0.3s;
+  font-size: 30px;
+}
+
+.content h5 {
+  margin-right: 120px;
+  font-size: 30px;
+}
+.content li {
+  color: black;
+}
+
+.heading {
+  box-sizing: content-box;
+  height: 80px;
+  width: 68%;
+  overflow-x: hidden;
+  display: flex;
+  font-size: 20px;
+  /* border: 2px solid black; */
+  margin-left: 425px;
+  margin-top: 120px;
+  padding-left: 40px;
+  border-radius: 0px;
+  position: fixed;
+  background-color: #fff;
+
+  color: black;
+  border-radius: 0px;
+  border-top-left-radius: 25px;
+}
+
+.heading h3 {
+  margin-right: 69px;
+}
+
+
+.heading h3:hover {
+  transition-duration: 0.2s;
+  color: #4caf50; /* green background for the button */
+  
+}

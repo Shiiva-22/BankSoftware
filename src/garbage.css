@@ -1,0 +1,83 @@
+* {
+    background-color: rgb(52, 87, 133);
+  }
+  
+  .heading{
+      color: black;
+      font-size: 40px;
+      margin: 0px;
+      text-align: center;
+  }
+  
+  .login {
+    height: 400px;
+    width: 400px;
+    border: 2px solid transparent;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 20px;
+    background-color: rgb(143, 133, 119);
+    align-content: center;
+    box-shadow: 20px 20px 5px black ;
+  }
+  .input1Alert {
+    color: red;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: -180px;
+    background-color: transparent;
+  }
+  
+  .input2Alert {
+    color: red;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: -180px;
+    background-color: transparent;
+  }
+  .LoginAlert {
+    color: green;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  .input1 {
+    height: 50px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+  }
+  
+  
+  .input2 {
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+  }
+  .login button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(52, 87, 133);
+  
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+  }
+  

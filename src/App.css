@@ -1,0 +1,77 @@
+body {
+  background-color: #f0f0f0; /* light gray background */
+}
+
+.heading1{
+  color: #333;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login {
+  width: 400px;
+  height: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(22, 22, 22, 0.1);
+  background-color: #fff; /* white background for the login form */
+  align-items: center;
+  align-content:flex-start;
+padding-left: 80px;
+  padding-top: 80px;
+}
+
+.input1,
+.input2 {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.input1:focus,
+.input2:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input1Alert,
+.input2Alert {
+  color: red;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin: 0px;
+  padding: 0;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.LoginAlert {
+  color: green;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.btn{
+  width: 280px;
+  height: 40px;
+  background-color: #4caf50; /* green background for the button */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: #3e8e41; /* darker green on hover */
+}
